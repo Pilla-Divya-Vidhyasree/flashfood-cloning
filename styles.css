@@ -95,7 +95,6 @@ a{
 .a1{
     width: auto;
     height:700px;
-    /*background-color: #4230dd;*/
     background-image: url("https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6227e532329aa42351839eb0_Home%20-%20hero%20qr%20code.png");
     background-repeat: no-repeat;
     background-size:1520px 900px;
@@ -167,13 +166,22 @@ a{
     width: 190px;
     height: 60px;
 }
-#title{
-    padding-top: 100px;
+.title{
     position: relative;
-    margin-bottom: 100px;
-    left: 570px;
-    font-size: 48px;
-    font-family: Figtree variablefont wght,sans-serif;
+    left:570px;
+    padding:10% 0% 10% 0%;
+    width:fit-content;
+    margin:0;
+    left:0;
+    right:0;
+}
+.title-box{
+    width:600px;
+    height:auto;
+    left:200px;
+    padding-left: 100%;
+    font-weight: 540;
+    font-size:47px;
 }
 .b1{
     background-color: #f2f2ff;
@@ -261,12 +269,11 @@ a{
     position: relative;
     margin-bottom: 100px;
     font-size: 40px;
-    font-family: Figtree variablefont wght,sans-serif;
 }
 .t{
     text-align: center;
     position: relative;
-    width: 700px;
+    width: 1000px;
     left: 400px;
 }
 .last-text{
@@ -287,14 +294,12 @@ a{
     padding-bottom: 3%;
 }
 .inner-text{
-    font-family: Figtree variablefont wght,sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
 }
 .quote-end{
     padding-top: 3%;
-    font-family: Figtree variablefont wght,sans-serif;
     font-size: large;
     font-weight: 700;
 }
@@ -317,10 +322,8 @@ a{
     font-size: 25px;
     color:#f2f2ff;
     font-weight: 700;
-    font-family: Figtree variablefont wght,sans-serif;
 }
 .ending-top1-text{
-    font-family: Figtree variablefont wght,sans-serif;
     font-size:35px;
     font-weight: 800;
     width:500px;
